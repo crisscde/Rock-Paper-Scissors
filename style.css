@@ -13,6 +13,7 @@ body {
 }
 
 h1,
+p,
 .emojis {
   position: absolute;
   top: 50%;
@@ -41,4 +42,10 @@ h1 {
 
 .emoji:last-child {
   margin-left: 25px;
+}
+
+p {
+  top: 70%;
+  font-size: 25px;
+  color: lch(30.75% 13.5 160.92);
 }
