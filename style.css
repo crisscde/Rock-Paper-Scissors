@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lch(86.01% 5.37 92.56);
+  color: lch(30.75% 13.5 160.92);
+  position: relative;
+  height: 100%;
+  font-size: 20px;
+}
+
+h1,
+.emojis {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+
+h1 {
+  width: 380px;
+}
+
+.emojis {
+  width: 380px;
+  font-size: 60px;
+  margin-top: 70px;
+}
+
+.emoji:first-child {
+  margin-left: 10px;
+}
+
+.emoji:nth-child(2) {
+  margin-left: 15px;
+}
+
+.emoji:last-child {
+  margin-left: 25px;
+}
